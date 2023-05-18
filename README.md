@@ -1,3 +1,6 @@
+## project image
+![React-App](https://github.com/Bright11/react-redux-ecommerce/assets/34070274/d42a625a-2305-499a-b287-b8c17c6379db)
+
 ## React Redux Ecommerce
 - is a simple react redux and firebase ecommerce,
 - this project has all the functionality any ecommerce project should have,
