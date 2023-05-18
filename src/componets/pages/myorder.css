@@ -1,0 +1,63 @@
+
+.order-container{
+    display: flex;
+   justify-content: space-between;
+   max-width: 80vw;
+   margin: 20px auto;
+}
+
+.orderimage{
+    width: 60px;
+    height: 60px;
+}
+.orderimage img{
+    width: 100%;
+
+}
+.itemsorder{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.oredr-content{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+   
+}
+
+.oredr-content .order-info h1{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.totalandqty{
+    display: flex;
+   gap: 20px;
+   flex-direction: column;
+   margin: 10px 0px;
+}
+.totalandqty h1{
+    font-size: 15px;
+    font-weight: 600;
+}
+.checkoutform{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.checkoutform form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+.checkoutform form input{
+    outline: 0;
+    width: 100%;
+    padding: 8px;
+}

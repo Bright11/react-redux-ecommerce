@@ -1,0 +1,27 @@
+.admintopbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.admincompanylogo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.admincompanylogo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.admincompanylogo, .admintopbarright button{
+    cursor: pointer;
+}
+.admintopbarright{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

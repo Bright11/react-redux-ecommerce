@@ -1,0 +1,29 @@
+
+.adminsidebar{
+    background: white;
+    height: 100vb;
+}
+.dasboardsidebar{
+    display: flex;
+    flex-direction: column;
+}
+.dasboardsidebar .dasboardsidebarul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dasboardsidebar .dasboardsidebarul li a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: rgb(145, 134, 134);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.dasboardsidebar .dasboardsidebarul li a:hover{
+    background: #F2F5FC;;
+}

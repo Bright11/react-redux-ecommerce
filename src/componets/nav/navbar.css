@@ -1,0 +1,84 @@
+
+.navbar{
+    background: #E2E1DE;
+    width: 100%;
+    padding: 0px 10px;
+    position: relative;
+    height: 50px;
+}
+.navbar .nav{
+    display: flex;
+    justify-content: space-between !important;
+    width: 100%;
+
+}
+.ul{
+    display: flex;
+    gap: 20px;
+}
+
+.ul li{
+    list-style: none;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-bottom: none;
+    transition: 2s;
+    cursor: pointer;
+}
+.ul li:hover{
+    border-bottom: 2px solid #E76452;
+}
+.ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    text-transform:capitalize;
+    color: black;
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.logo img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.cartbar-link span{
+    color: white;
+    background: #E76452;
+    border-radius: 100%;
+    width: fit-content;
+    padding: 2px;
+    text-align: center;
+
+}
+.cartbar-link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.searchbar{
+    background: #E2E1DE;
+    display: flex;
+    align-items: center;
+}
+.searchbar form {
+    display: flex;
+    align-items: center;
+}
+.searchbar form input, button{
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.searchbar form button{
+    cursor: pointer;
+}
+.searchbar form input{
+   
+    border-bottom: 1px solid black;
+}

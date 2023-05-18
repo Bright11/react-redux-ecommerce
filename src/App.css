@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.app-content-holder{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.adminHomepage{
+  background: #F2F5FC;
+  height: 100vb;
+}

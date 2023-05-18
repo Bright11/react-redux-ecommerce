@@ -1,0 +1,114 @@
+.AdminHomedata{
+    display: flex;
+    flex-direction: column;
+}
+
+.AdminHomedata-content{
+    display: flex;
+}
+.maindatarightbar{
+    flex-basis: 20%;
+}
+.registereduseradmin{
+    background: white;
+    width: 100%;
+    padding: 6px;
+    height: fit-content;
+}
+.maindata{
+    flex-basis: 60%;
+    background: #F2F5FC;
+}
+.maindata-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.salesdiv{
+    background: white;
+    width: 300px;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.divsales{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.divsales h1{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.customers{
+    background: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.div-customer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customers h1{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.customersicon{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 150px;
+}
+
+/* maindatarightbar */
+.maindatarightbar{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maindatarightbar h1{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.adminsidebar-users{
+    width: 100%;
+}
+.adminsidebar-users a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.tableimg{
+    width: 40px;
+}
+.itemstable{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.visitors{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    margin: 10px 0px;
+    padding: 20px;
+    width: 100%;
+}

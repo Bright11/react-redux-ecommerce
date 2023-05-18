@@ -1,0 +1,21 @@
+.adminHomepage{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 0px auto;
+    background: #F2F5FC;
+}
+.adminpage-container{
+    display: flex;
+  background: #F2F5FC;
+
+}
+
+.rightbaradmin{
+    flex-basis: 70%;
+}
+.sidebaradmin{
+    flex-basis: 20%;
+    margin-left: 10px;
+    
+}

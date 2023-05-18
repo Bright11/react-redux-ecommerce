@@ -1,0 +1,35 @@
+
+.categorypage{
+    margin-left: 10px;
+}
+
+.categoryform{
+    text-align: center;
+    background: transparent;
+
+}
+.categoryform form {
+    display: flex;
+    align-items: center;
+    margin: 0px 50%;
+}
+.categoryform form input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+}
+table, tr, td,th {
+    border: none;
+}
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+    padding: 0;
+    border-spacing: 0;
+}
+
